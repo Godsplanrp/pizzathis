@@ -10,40 +10,29 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"Wrap Combos:": {
+	"Pasta Combos:": {
 		header: true,
 	},
-	"Chicken Wrap Combo": {
-		price: 150,
-		items: ["Chicken Wrap", "Fries", "Soda"],
+	"Pasta Fresca Combo": {
+		price: 400,
+		items: ["Pasta Fresca", "Soda"],
 	},
-	"Goat Cheese Wrap Combo": {
-		price: 150,
-		items: ["Goat Cheese Wrap", "Fries", "Soda"],
+	"Pasto Cavatappi Combo": {
+		price: 300,
+		items: ["Pasto Cavatappi", "Soda"],
+	},
+	"Spaghetti Bolognese Combo": {
+		price: 325,
+		items: ["Spaghetti Bolognese", "Soda"],
 	},
 	// Variable combos:
-	"Taco Lovers": {
+	"Family Meal 1": {
 		price: 600,
 		emoji: '🍬',
 		items: ["Soda", "Soda", "Soda", "Fries", "Fries", "Taco", "Taco", "Taco", "Taco", "Taco"],
 	},
-	"Sweet Tooth": {
-		price: 600,
-		emoji: '🧂',
-		items: ["Orangotang Ice Cream", "Meteorite Ice Cream", "Mocha Shake", "Mocha Shake"],
-	},
-	"Salty Seaman": {
-		price: 60,
-		emoji: '🦷',
-		items: ["Fries", "Fries", "Soda", "Soda"],
-	},
-	"Glory to the mymack": {
-		price: 1700,
-		emoji: '👑',
-		items: ["Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Simply Burger", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Soda", "Meteorite Ice Cream", "Meteorite Ice Cream", "Meteorite Ice Cream", "Meteorite Ice Cream", "Meteorite Ice Cream", "Meteorite Ice Cream", "Meteorite Ice Cream", "Meteorite Ice Cream"],
-	},
 	// Burger Meals:
-	"Burger Meals:": {
+	"Pizza Meals:": {
 		header: true,
 	},
 	"Murder Meal": {
