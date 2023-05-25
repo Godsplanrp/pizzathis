@@ -66,33 +66,33 @@ const Menu = {
 	"Individual Items:": {
 		header: true,
 	},
-	"Heartstopper": {
+	"Peppizza": {
 		price: 250,
-		items: ["Heartstopper"],
+		items: ["Peppizza"],
 	},
-	"The Prickly": {
+	"Margheritapizza": {
 		price: 150,
-		items: ["The Prickly"],
+		items: ["Margheritapizza"],
 	},
-	"Double Shot": {
+	"SanManzanopizza": {
 		price: 200,
-		items: ["Double Shot"],
+		items: ["SanManzanopizza"],
 	},
-	"Taco": {
+	"Ham Sandwich": {
 		price: 100,
-		items: ["Taco"],
+		items: ["Ham Sandwich"],
 	},
-	"Bleeder": {
+	"Turkey Sandwich": {
 		price: 200,
-		items: ["Bleeder"],
+		items: ["Turkey Sandwich"],
 	},
-	"Simply Burger": {
+	"Beef Sandwich": {
 		price: 150,
-		items: ["Simply Burger"],
+		items: ["Beef Sandwich"],
 	},
-	"Chicken Wrap": {
+	"BLT Sandwich": {
 		price: 100,
-		items: ["Chicken Wrap"],
+		items: ["BLT Sandwich"],
 	},
 	"Goat Cheese Wrap": {
 		price: 100,
@@ -102,13 +102,13 @@ const Menu = {
 		price: 50,
 		items: ["Fries"],
 	},
-	"Water": {
+	"French Fries": {
 		price: 5,
-		items: ["Water"],
+		items: ["French Fries"],
 	},
-	"Soda": {
+	"Chips": {
 		price: 25,
-		items: ["Soda"]
+		items: ["Chips"]
 	},
 	"Mocha Shake": {
 		price: 200,
