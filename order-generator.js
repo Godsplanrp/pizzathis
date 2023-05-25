@@ -46,22 +46,6 @@ const Menu = {
 		price: 325,
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
-	"Double Shot Meal": {
-		price:250,
-		items: ["Double Shot", "Fries", "Soda"],
-	},
-	"Simply Burger Meal": {
-		price: 200,
-		items: ["Simply Burger", "Fries", "Soda"],
-	},
-	"Bleeder Meal": {
-		price: 255,
-		items: ["Bleeder", "Fries", "Soda"],
-	},
-	"The Prickly Meal": {
-		price: 205,
-		items: ["The Prickly", "Fries", "Soda"],
-	},
 	// Individual Items:
 	"Individual Items:": {
 		header: true,
@@ -109,18 +93,6 @@ const Menu = {
 	"Chips": {
 		price: 25,
 		items: ["Chips"]
-	},
-	"Mocha Shake": {
-		price: 200,
-		items: ["Mocha Shake"],
-	},
-	"Meteorite Ice Cream": {
-		price: 350,
-		items: ["Meteorite Ice Cream"],
-	},
-	"Orangotang Ice Cream": {
-		price: 350,
-		items: ["Orangotang Ice Cream"]
 	},
 	"Delivery Fee": {
 		price: 35,
