@@ -78,10 +78,6 @@ const Menu = {
 		price: 100,
 		items: ["BLT Sandwich"],
 	},
-	"Goat Cheese Wrap": {
-		price: 100,
-		items: ["Goat Cheese Wrap"],
-	},
 	"Fries": {
 		price: 50,
 		items: ["Fries"],
@@ -132,7 +128,7 @@ const buttons = {
 const discounts = {
 	"half_off": {
 		percent: .50,
-		desc: '50% Discount (BS Employees...)',
+		desc: '50% Discount (PT Employees...)',
 	},
 	"5pcnt_off": {
 		percent: .05,
