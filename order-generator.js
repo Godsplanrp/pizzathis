@@ -9,7 +9,7 @@ const Settings = {
 }
 
 const Menu = {
-	// Pasta Combo Items:
+	// Combo Items:
 	"Pasta Combos:": {
 		header: true,
 		
@@ -29,7 +29,7 @@ const Menu = {
 		items: ["Spaghetti Bolognese", "Soda"],
 		const Menu = {
 	
-	// Pizza Combo Items:
+	// Combo Items:
 	"Pizza Combos:": {
 		header: true,
 		
@@ -49,7 +49,7 @@ const Menu = {
 		items: ["SanManzanopizza", "Soda"],
 		const Menu = {
 	
-	// Sandwich Combo Items:
+	// Combo Items:
 	"Sandwich Combos:": {
 		header: true,
 		
