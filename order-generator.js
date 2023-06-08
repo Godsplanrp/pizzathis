@@ -9,51 +9,60 @@ const Settings = {
 }
 
 const Menu = {
-	// Combo Items:
-	"Pasta Classic Combos:": {
+	// Pasta Combo Items:
+	"Pasta Combos:": {
 		header: true,
+		
 	},
 	"Pasta Fresca": {
 		price: 370,
 		items: ["Pasta Fresca", "Soda"],
+		
 	},
 	"Pasto Cavatappi": {
 		price: 325,
 		items: ["Pasto Cavatappi", "Soda"],
+		
 	},
 	"Spaghetti": {
 		price: 325,
 		items: ["Spaghetti Bolognese", "Soda"],
 		const Menu = {
 	
-	// Combo Items:
+	// Pizza Combo Items:
 	"Pizza Combos:": {
 		header: true,
+		
 	},
 	"Pepperoni Pizza": {
 		price: 350,
 		items: ["Peppizza", "Soda"],
+		
 	},
 	"MeatLovers Pizza": {
 		price: 300,
 		items: ["Margheritapizza", "Soda"],
+		
 	},
 	"Veggie Combo": {
 		price: 200,
 		items: ["SanManzanopizza", "Soda"],
 		const Menu = {
 	
-	// Combo Items:
+	// Sandwich Combo Items:
 	"Sandwich Combos:": {
 		header: true,
+		
 	},
 	"Honey Roasted Ham Sandwich": {
 		price: 370,
 		items: ["Honey Ham Sandwich", "Fries", "Soda"],
+		
 	},
 	"Smoked Turkey Sandwich": {
 		price: 325,
 		items: ["Smoked Turkey Sandwich", "Fries", "Soda"],
+		
 	},
 	"Brisket Sandwich": {
 		price: 325,
@@ -64,23 +73,23 @@ const Menu = {
 		items: ["BLT Sandwich", "Fries", "Soda"],	
 	
 	},
-	// Variable combos:
+	// Specialty Combos:
 	"Take Me 2 Italy Meal 1": {
 		price: 2500,
 		emoji: '🍬',
 		items: ["Wine", "Wine", "Peppizza", "Peppizza", "Margheritapizza", "Margheritapizza", "SanManzanopizza", "SanManzanopizza", "SanManzanopizza"],
-		
+	
+	},	
 	"Feed Da Family Meal 2": {
 		price: 3000,
 		emoji: '🍬',
 		items: ["Lemonade", "Lemonade", "Soda", "Soda", "BLT Sandwich", "BLT Sandwich", "Brisket Sandwich", "Brisket Sandwich", "Fries", "Fries", "Fries", "Fries"],
-		
+	
+	},
 	"Late Night Munchies 3": {
 		price: 3600,
 		emoji: '🍬',
 		items: ["Beer", "Beer", "Vodka Shot", "Vodka Shot", "Whiskey Shot", "Whiskey Shot", "Peppizza", "Peppizza", "Peppizza", "Peppizza", "Peppizza"],	
-	
-		
 		
 	},
 	// Pizza Meals:
@@ -127,10 +136,12 @@ const Menu = {
 	// Individual Items:
 	"Individual Items:": {
 		header: true,
+		
 	},
 	"Peppizza": {
 		price: 300,
 		items: ["Peppizza"],
+		
 	},
 	"MeatLoverpizza": {
 		price: 250,
@@ -139,34 +150,42 @@ const Menu = {
 	"Veggiepizza": {
 		price: 150,
 		items: ["SanManzanopizza"],
+		
 	},
 	"Honey Ham Sandwich": {
 		price: 160,
 		items: ["Honey Ham Sandwich"],
+		
 	},
 	"Smoked Turkey Sandwich": {
 		price: 180,
 		items: ["Smoked Turkey Sandwich"],
+		
 	},
 	"Brisket Sandwich": {
 		price: 160,
 		items: ["Brisket Sandwich"],
+		
 	},
 	"BLT Sandwich": {
 		price: 300,
 		items: ["BLT Sandwich"],
+		
 	},
 	"Fries": {
 		price: 120,
 		items: ["Fries"],
+		
 	},
 	"Spunk Drink": {
 		price: 45,
 		items: ["Spunk Drink"],
+		
 	},
 	"Energy Drink": {
 		price: 150,
 		items: ["Energy Drink"],
+		
 	},	
 	"Lemonade": {
 		price: 500,
@@ -175,38 +194,47 @@ const Menu = {
 	"Wine": {
 		price: 200,
 		items: ["Wine"],
+		
 	},	
 	"Wine Glass": {
 		price: 100,
 		items: ["Wine Glass"],
+		
 	},
 	"Beer": {
 		price: 100,
 		items: ["Beer"],
+		
 	},
 	"Whiskey Bottle": {
 		price: 900,
 		items: ["Whiskey Bottle"],
+		
 	},	
 	"Whiskey Bottle": {
 		price: 900,
 		items: ["Whiskey Bottle"],
+		
 	},	
 	"Whiskey Shot": {
 		price: 400,
 		items: ["Whiskey Shot"],
+		
 	},	
 	"Vodka Bottle": {
 		price: 700,
 		items: ["Vodka Bottle"],
+		
 	},	
 	"Whiskey Bottle": {
 		price: 300,
 		items: ["Vodka Shot"],
+		
 	},
 	"Bags": {
 		price: 12,
 		items: ["Bags"]
+		
 	},
 	"Delivery Fee": {
 		price: 35,
@@ -217,7 +245,7 @@ const INDIVIDUAL_ITEMS = [
 	"PizzaMeal", "PastaMeal", "Peppizza", "Margheritapizza", "SanManzanopizza", "Water", "Honey Ham Sandwich", "Smoked Turkey Sandwich", "Brisket Sandwich", "BLT Sandwich",
 	"Pasta Fresca", "Pasto Cavatappi", "Spaghetti Bolognese", "Fries", "Soda", "Wine", "Beer", "Energy Drink", "Spunk Drink", "Vodka Bottle", "Whiskey Bottle", "Vodka Shot", 
 	"Whiskey Shot", "Wine Glass", "Delivery Fee", "Lemonade", "Da New Yorker 4", "Dirty 30 Deep Dish 5", "Say No 2 Meat 6", "Bags", 
-		
+
 ];
 
 const buttons = {
