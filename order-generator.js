@@ -244,7 +244,7 @@ const Menu = {
 const INDIVIDUAL_ITEMS = [
 	"PizzaMeal", "PastaMeal", "Peppizza", "Margheritapizza", "SanManzanopizza", "Water", "Honey Ham Sandwich", "Smoked Turkey Sandwich", "Brisket Sandwich", "BLT Sandwich",
 	"Pasta Fresca", "Pasto Cavatappi", "Spaghetti Bolognese", "Fries", "Soda", "Wine", "Beer", "Energy Drink", "Spunk Drink", "Vodka Bottle", "Whiskey Bottle", "Vodka Shot", 
-	"Whiskey Shot", "Wine Glass", "Delivery Fee", "Lemonade", "Da New Yorker 4", "Dirty 30 Deep Dish 5", "Say No 2 Meat 6", "Bags", 
+	"Whiskey Shot", "Wine Glass", "Delivery Fee", "Lemonade", "Bags", 
 
 ];
 
