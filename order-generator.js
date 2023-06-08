@@ -73,7 +73,7 @@ const Menu = {
 		items: ["BLT Sandwich", "Fries", "Soda"],	
 	
 	},
-	// Specialty Combos:
+	// Variable Combos:
 	"Take Me 2 Italy Meal 1": {
 		price: 2500,
 		emoji: '🍬',
