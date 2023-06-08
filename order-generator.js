@@ -10,101 +10,214 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"Pasta Combos:": {
+	"Pasta Classic Combos:": {
 		header: true,
 	},
-	"Pasta Fresca Combo": {
-		price: 400,
+	"Pasta Fresca": {
+		price: 370,
 		items: ["Pasta Fresca", "Soda"],
 	},
-	"Pasto Cavatappi Combo": {
-		price: 300,
+	"Pasto Cavatappi": {
+		price: 325,
 		items: ["Pasto Cavatappi", "Soda"],
 	},
-	"Spaghetti Bolognese Combo": {
+	"Spaghetti": {
 		price: 325,
 		items: ["Spaghetti Bolognese", "Soda"],
-	},
-	// Variable combos:
-	"Family Meal 1": {
-		price: 600,
-		emoji: '🍬',
-		items: ["Soda", "Soda", "Soda", "Fries", "Fries", "Taco", "Taco", "Taco", "Taco", "Taco"],
-	},
-	// Burger Meals:
-	"Pizza Meals:": {
+		const Menu = {
+	
+	// Combo Items:
+	"Pizza Combos:": {
 		header: true,
 	},
-	"Murder Meal": {
-		max: 4,
-		fileRenameException: true,
-		price: 1000,
-		noDiscount: true,
-		items: ["Murder Meal"],
+	"Pepperoni Pizza": {
+		price: 350,
+		items: ["Peppizza", "Soda"],
 	},
-	"Heartstopper Meal": {
+	"MeatLovers Pizza": {
+		price: 300,
+		items: ["Margheritapizza", "Soda"],
+	},
+	"Veggie Combo": {
+		price: 200,
+		items: ["SanManzanopizza", "Soda"],
+		const Menu = {
+	
+	// Combo Items:
+	"Sandwich Combos:": {
+		header: true,
+	},
+	"Honey Roasted Ham Sandwich": {
+		price: 370,
+		items: ["Honey Ham Sandwich", "Fries", "Soda"],
+	},
+	"Smoked Turkey Sandwich": {
 		price: 325,
-		items: ["Heartstopper", "Fries", "Soda"],
+		items: ["Smoked Turkey Sandwich", "Fries", "Soda"],
+	},
+	"Brisket Sandwich": {
+		price: 325,
+		items: ["Brisket Sandwich", "Fries", "Soda"],
+	},	
+	"BLT Sandwich": {
+		price: 325,
+		items: ["BLT Sandwich", "Fries", "Soda"],	
+	
+	},
+	// Variable combos:
+	"Take Me 2 Italy Meal 1": {
+		price: 2500,
+		emoji: '🍬',
+		items: ["Wine", "Wine", "Peppizza", "Peppizza", "Margheritapizza", "Margheritapizza", "SanManzanopizza", "SanManzanopizza", "SanManzanopizza"],
+		
+	"Feed Da Family Meal 2": {
+		price: 3000,
+		emoji: '🍬',
+		items: ["Lemonade", "Lemonade", "Soda", "Soda", "BLT Sandwich", "BLT Sandwich", "Brisket Sandwich", "Brisket Sandwich", "Fries", "Fries", "Fries", "Fries"],
+		
+	"Late Night Munchies 3": {
+		price: 3600,
+		emoji: '🍬',
+		items: ["Beer", "Beer", "Vodka Shot", "Vodka Shot", "Whiskey Shot", "Whiskey Shot", "Peppizza", "Peppizza", "Peppizza", "Peppizza", "Peppizza"],	
+	
+		
+		
+	},
+	// Pizza Meals:
+	"PizzaMeals:": {
+		header: true,
+		
+	"I'm Hungry Meal :": {
+		header: true,
+	},
+	"Da New Yorker 4": {
+		price: 2500,
+		items: ["Peppizza", "Peppizza", "Peppizza", "Peppizza", "Peppizza", "Soda","Soda","Soda","Soda","Soda"],
+	},
+	"Dirty 30 Deep Dish 5": {
+		price: 2000,
+		items: ["Margheritapizza", "Margheritapizza", "Margheritapizza", "Margheritapizza", "Margheritapizza", "Soda","Soda","Soda","Soda","Soda"],
+	},
+	"Say No 2 Meat 6": {
+		price: 1900,
+		items: ["SanManzanopizza", "SanManzanopizza", "SanManzanopizza", "SanManzanopizza", "SanManzanopizza", "Soda", "Soda", "Soda", "Soda", "Soda"],	
+	
+	// Pasta Meals:
+	"PastaMeals:": {
+		header: true,
+	},
+	"5 Day Specials:": {
+		header: true,
+	},
+	"Pasta Fresca Meal 1": {
+		price: 2100,
+		items: ["Pasta Fresca","Pasta Fresca","Pasta Fresca","Pasta Fresca","Pasta Fresca", "Soda","Soda","Soda","Soda","Soda"],
+	},
+	"Pasta Pesto Meal 2": {
+		price: 1400,
+		items: ["Pasto Cavatappi", "Pasto Cavatappi", "Pasto Cavatappi", "Pasto Cavatappi", "Pasto Cavatappi", "Soda", "Soda", "Soda", "Soda", "Soda"],
+	},
+	"Spaghetti Meal 3": {
+		price: 1900,
+		items: ["Spaghetti Bolognese", "Spaghetti Bolognese", "Spaghetti Bolognese", "Spaghetti Bolognese", "Spaghetti Bolognese", "Soda", "Soda", "Soda", "Soda", "Soda"],
+	
+	
+		
 	},
 	// Individual Items:
 	"Individual Items:": {
 		header: true,
 	},
 	"Peppizza": {
-		price: 250,
+		price: 300,
 		items: ["Peppizza"],
 	},
-	"Margheritapizza": {
-		price: 150,
+	"MeatLoverpizza": {
+		price: 250,
 		items: ["Margheritapizza"],
 	},
-	"SanManzanopizza": {
-		price: 200,
+	"Veggiepizza": {
+		price: 150,
 		items: ["SanManzanopizza"],
 	},
-	"Ham Sandwich": {
-		price: 100,
-		items: ["Ham Sandwich"],
+	"Honey Ham Sandwich": {
+		price: 160,
+		items: ["Honey Ham Sandwich"],
 	},
-	"Turkey Sandwich": {
-		price: 200,
-		items: ["Turkey Sandwich"],
+	"Smoked Turkey Sandwich": {
+		price: 180,
+		items: ["Smoked Turkey Sandwich"],
 	},
-	"Beef Sandwich": {
-		price: 150,
-		items: ["Beef Sandwich"],
+	"Brisket Sandwich": {
+		price: 160,
+		items: ["Brisket Sandwich"],
 	},
 	"BLT Sandwich": {
-		price: 100,
+		price: 300,
 		items: ["BLT Sandwich"],
 	},
 	"Fries": {
-		price: 50,
+		price: 120,
 		items: ["Fries"],
 	},
-	"French Fries": {
-		price: 5,
-		items: ["French Fries"],
+	"Spunk Drink": {
+		price: 45,
+		items: ["Spunk Drink"],
 	},
-	"Chips": {
-		price: 25,
-		items: ["Chips"]
+	"Energy Drink": {
+		price: 150,
+		items: ["Energy Drink"],
+	},	
+	"Lemonade": {
+		price: 500,
+		items: ["Lemonade"],
+	},	
+	"Wine": {
+		price: 200,
+		items: ["Wine"],
+	},	
+	"Wine Glass": {
+		price: 100,
+		items: ["Wine Glass"],
+	},
+	"Beer": {
+		price: 100,
+		items: ["Beer"],
+	},
+	"Whiskey Bottle": {
+		price: 900,
+		items: ["Whiskey Bottle"],
+	},	
+	"Whiskey Bottle": {
+		price: 900,
+		items: ["Whiskey Bottle"],
+	},	
+	"Whiskey Shot": {
+		price: 400,
+		items: ["Whiskey Shot"],
+	},	
+	"Vodka Bottle": {
+		price: 700,
+		items: ["Vodka Bottle"],
+	},	
+	"Whiskey Bottle": {
+		price: 300,
+		items: ["Vodka Shot"],
+	},
+	"Bags": {
+		price: 12,
+		items: ["Bags"]
 	},
 	"Delivery Fee": {
 		price: 35,
 		items: ["Delivery Fee"]
-	},
-//"10 Pack BurgerBits": {
- //  price: 1375,
- //  max: 1,
- //  noDiscount: true,
-  // lastItem: true,
-   //items: ["10 Pack BurgerBits"],
-//}
+
 };
 const INDIVIDUAL_ITEMS = [
-	"Murder Meal", "Heartstopper", "Double Shot", "Bleeder", "Water", "Simply Burger", "Chicken Wrap", "Goat Cheese Wrap", "The Prickly",
-	"Fries", "Soda", "Meteorite Ice Cream", "Orangotang Ice Cream", "Mocha Shake", "Delivery Fee", "Taco",
+	"PizzaMeal", "PastaMeal", "Peppizza", "Margheritapizza", "SanManzanopizza", "Water", "Honey Ham Sandwich", "Smoked Turkey Sandwich", "Brisket Sandwich", "BLT Sandwich",
+	"Pasta Fresca", "Pasto Cavatappi", "Spaghetti Bolognese", "Fries", "Soda", "Wine", "Beer", "Energy Drink", "Spunk Drink", "Vodka Bottle", "Whiskey Bottle", "Vodka Shot", 
+	"Whiskey Shot", "Wine Glass", "Delivery Fee", "Lemonade", "Da New Yorker 4", "Dirty 30 Deep Dish 5", "Say No 2 Meat 6", "Bags", 
+		
 ];
 
 const buttons = {
